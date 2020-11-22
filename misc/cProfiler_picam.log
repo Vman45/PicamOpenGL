@@ -1,0 +1,305 @@
+         208936 function calls (208434 primitive calls) in 58.987 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      500    0.009    0.000    0.107    0.000 <__array_function__ internals>:2(concatenate)
+      500    0.005    0.000    0.080    0.000 <__array_function__ internals>:2(expand_dims)
+      500    0.006    0.000    0.017    0.000 <__array_function__ internals>:2(where)
+     1017    0.004    0.000    0.009    0.000 <string>:1(__new__)
+      500    0.002    0.000    0.006    0.000 _asarray.py:88(asanyarray)
+     2518    0.015    0.000    0.018    0.000 _weakrefset.py:38(_remove)
+     2519    0.018    0.000    0.022    0.000 _weakrefset.py:81(add)
+        2    0.000    0.000    0.000    0.000 abc.py:137(__instancecheck__)
+        2    0.000    0.000    0.000    0.000 abc.py:141(__subclasscheck__)
+     2012    0.026    0.000    0.026    0.000 bcm_host.py:92(VCOS_ALIGN_UP)
+      500    0.040    0.000   30.493    0.061 camera.py:1292(capture)
+     1022    0.003    0.000    0.003    0.000 camera.py:1715(closed)
+        2    0.000    0.000    0.000    0.000 camera.py:1722(recording)
+        2    0.000    0.000    0.000    0.000 camera.py:1729(<genexpr>)
+        1    0.000    0.000    0.033    0.033 camera.py:1961(_disable_camera)
+        1    0.000    0.000    0.080    0.080 camera.py:1970(_enable_camera)
+        1    0.000    0.000    0.001    0.001 camera.py:1980(_configure_splitter)
+        2    0.000    0.000    0.013    0.006 camera.py:2005(_configure_camera)
+        2    0.000    0.000    0.008    0.004 camera.py:2021(<listcomp>)
+        1    0.000    0.000    0.000    0.000 camera.py:2093(_get_framerate)
+        1    0.000    0.000    0.000    0.000 camera.py:2169(_get_sensor_mode)
+        1    0.000    0.000    0.000    0.000 camera.py:2220(_get_clock_mode)
+        1    0.000    0.000    0.117    0.117 camera.py:2263(_set_resolution)
+        1    0.000    0.000    0.000    0.000 camera.py:2516(_set_saturation)
+        1    0.000    0.000    0.000    0.000 camera.py:2535(_set_sharpness)
+        1    0.000    0.000    0.000    0.000 camera.py:2555(_set_contrast)
+        1    0.000    0.000    0.000    0.000 camera.py:2573(_set_brightness)
+        1    0.000    0.000    0.000    0.000 camera.py:2771(_set_iso)
+        1    0.000    0.000    0.000    0.000 camera.py:2835(_set_meter_mode)
+        1    0.000    0.000    0.000    0.000 camera.py:2869(_set_video_stabilization)
+        1    0.000    0.000    0.000    0.000 camera.py:2895(_set_exposure_compensation)
+        1    0.000    0.000    0.000    0.000 camera.py:2925(_set_exposure_mode)
+        1    0.000    0.000    0.000    0.000 camera.py:3008(_set_awb_mode)
+        1    0.000    0.000    0.000    0.000 camera.py:3098(_set_image_effect)
+        1    0.003    0.003    0.123    0.123 camera.py:328(__init__)
+        1    0.000    0.000    0.000    0.000 camera.py:3282(_set_color_effects)
+        1    0.000    0.000    0.000    0.000 camera.py:3322(_set_rotation)
+        1    0.000    0.000    0.000    0.000 camera.py:3341(_get_vflip)
+        1    0.000    0.000    0.001    0.001 camera.py:3345(_set_vflip)
+        1    0.000    0.000    0.001    0.001 camera.py:3364(_get_hflip)
+        1    0.000    0.000    0.001    0.001 camera.py:3368(_set_hflip)
+        1    0.000    0.000    0.000    0.000 camera.py:3396(_set_zoom)
+        1    0.000    0.000    0.003    0.003 camera.py:454(_init_camera)
+        1    0.000    0.000    0.005    0.005 camera.py:482(_init_defaults)
+        1    0.000    0.000    0.012    0.012 camera.py:499(_init_splitter)
+        1    0.000    0.000    0.069    0.069 camera.py:507(_init_preview)
+      500    0.015    0.000    0.276    0.001 camera.py:515(_start_capture)
+      500    0.004    0.000    0.010    0.000 camera.py:520(<listcomp>)
+      500    0.017    0.000    0.175    0.000 camera.py:523(_stop_capture)
+      500    0.003    0.000    0.007    0.000 camera.py:528(<listcomp>)
+      522    0.007    0.000    0.008    0.000 camera.py:531(_check_camera_open)
+        1    0.000    0.000    0.000    0.000 camera.py:542(_check_recording_stopped)
+      500    0.012    0.000    0.022    0.000 camera.py:549(_get_ports)
+      500    0.006    0.000    0.012    0.000 camera.py:599(_get_image_format)
+      500    0.010    0.000    2.814    0.006 camera.py:642(_get_image_encoder)
+        1    0.025    0.025   58.987   58.987 camera.py:71(picam_normal)
+        1    0.000    0.000    0.042    0.042 camera.py:725(close)
+        1    0.000    0.000    0.000    0.000 camera.py:754(__enter__)
+        1    0.000    0.000    0.042    0.042 camera.py:757(__exit__)
+        2    0.000    0.000    0.000    0.000 codecs.py:260(__init__)
+        2    0.000    0.000    0.000    0.000 codecs.py:309(__init__)
+       12    0.000    0.000    0.000    0.000 codecs.py:319(decode)
+        4    0.000    0.000    0.000    0.000 codecs.py:331(getstate)
+      500    0.015    0.000    2.805    0.006 encoders.py:1148(__init__)
+      500    0.008    0.000    1.895    0.004 encoders.py:1164(start)
+      500    0.034    0.000    2.725    0.005 encoders.py:170(__init__)
+      500    0.031    0.000    2.256    0.005 encoders.py:196(_create_resizer)
+      500    0.006    0.000    0.049    0.000 encoders.py:312(_open_output)
+     1000    0.013    0.000    0.031    0.000 encoders.py:333(_close_output)
+     2000    0.011    0.000    0.022    0.000 encoders.py:351(active)
+      500    0.017    0.000    1.888    0.004 encoders.py:363(start)
+      500    0.007    0.000   25.079    0.050 encoders.py:382(wait)
+     1000    0.025    0.000    0.582    0.001 encoders.py:401(stop)
+      500    0.013    0.000    0.630    0.001 encoders.py:421(close)
+      500    0.035    0.000    2.790    0.006 encoders.py:487(__init__)
+      500    0.007    0.000    0.134    0.000 encoders.py:555(_create_encoder)
+     1002    0.034    0.000    0.035    0.000 exc.py:132(__init__)
+      500    0.004    0.000    0.015    0.000 exc.py:169(__init__)
+     7582    0.022    0.000    0.046    0.000 exc.py:173(mmal_check)
+       27    0.000    0.000    0.000    0.000 fractions.py:274(numerator)
+       27    0.000    0.000    0.000    0.000 fractions.py:278(denominator)
+        4    0.000    0.000    0.000    0.000 fractions.py:282(__repr__)
+        1    0.000    0.000    0.000    0.000 fractions.py:374(forward)
+        1    0.000    0.000    0.000    0.000 fractions.py:423(_div)
+        1    0.000    0.000    0.000    0.000 fractions.py:430(__floordiv__)
+        1    0.000    0.000    0.000    0.000 fractions.py:511(__floor__)
+        1    0.000    0.000    0.000    0.000 fractions.py:567(__eq__)
+       29    0.000    0.000    0.001    0.000 fractions.py:84(__new__)
+        9    0.000    0.000    0.000    0.000 genericpath.py:27(isfile)
+      500    0.004    0.000    0.005    0.000 interpreter.py:244(_safe_to_run)
+      500    0.002    0.000    0.007    0.000 interpreter.py:256(_ensure_safe)
+      500    0.009    0.000    0.090    0.000 interpreter.py:385(set_tensor)
+     1000    0.009    0.000    0.042    0.000 interpreter.py:428(get_tensor)
+      500    0.007    0.000   26.481    0.053 interpreter.py:493(invoke)
+      500    0.004    0.000   26.468    0.053 interpreter_wrapper.py:117(Invoke)
+      500    0.004    0.000    0.081    0.000 interpreter_wrapper.py:147(SetTensor)
+     1000    0.005    0.000    0.033    0.000 interpreter_wrapper.py:150(GetTensor)
+        1    0.000    0.000    0.002    0.002 linecache.py:15(getline)
+        1    0.000    0.000    0.002    0.002 linecache.py:37(getlines)
+        1    0.000    0.000    0.002    0.002 linecache.py:82(updatecache)
+        1    0.000    0.000    0.016    0.016 mimetypes.py:196(read)
+        1    0.009    0.009    0.016    0.016 mimetypes.py:207(readfp)
+        3    0.000    0.000    0.018    0.006 mimetypes.py:327(add_type)
+        1    0.000    0.000    0.018    0.018 mimetypes.py:344(init)
+        1    0.000    0.000    0.001    0.001 mimetypes.py:66(__init__)
+      709    0.003    0.000    0.004    0.000 mimetypes.py:80(add_type)
+     1004    0.001    0.000    0.001    0.000 mmalobj.py:1004(_get_opaque_subformat)
+     1009    0.002    0.000    0.002    0.000 mmalobj.py:1006(_set_opaque_subformat)
+     1502    0.012    0.000    0.012    0.000 mmalobj.py:1032(_set_format)
+     1005    0.030    0.000    0.391    0.000 mmalobj.py:1050(supported_formats)
+     1004    0.060    0.000    0.060    0.000 mmalobj.py:1073(<listcomp>)
+     1003    0.020    0.000    0.022    0.000 mmalobj.py:1094(copy_from)
+     2011    0.568    0.000    0.618    0.000 mmalobj.py:1104(commit)
+     1000    0.048    0.000    0.125    0.000 mmalobj.py:1144(send_buffer)
+     1004    0.002    0.000    0.002    0.000 mmalobj.py:1183(_get_buffer_count)
+     1004    0.003    0.000    0.003    0.000 mmalobj.py:1185(_set_buffer_count)
+     1004    0.002    0.000    0.002    0.000 mmalobj.py:1195(_get_buffer_size)
+     1004    0.003    0.000    0.003    0.000 mmalobj.py:1197(_set_buffer_size)
+      500    1.386    0.003    1.532    0.003 mmalobj.py:1208(enable)
+      500    0.014    0.000    0.135    0.000 mmalobj.py:1219(wrapper)
+     1509    0.016    0.000    0.312    0.000 mmalobj.py:1263(disable)
+     3013    0.004    0.000    0.004    0.000 mmalobj.py:1273(connection)
+ 1004/502    0.018    0.000    1.124    0.002 mmalobj.py:1283(connect)
+     1002    0.010    0.000    0.340    0.000 mmalobj.py:1306(disconnect)
+        8    0.000    0.000    0.000    0.000 mmalobj.py:1329(_get_framesize)
+      506    0.020    0.000    0.048    0.000 mmalobj.py:1334(_set_framesize)
+        7    0.000    0.000    0.000    0.000 mmalobj.py:1350(_get_framerate)
+        6    0.000    0.000    0.000    0.000 mmalobj.py:1359(_set_framerate)
+     1513    0.008    0.000    0.008    0.000 mmalobj.py:1421(__init__)
+     1023    0.276    0.000    0.284    0.000 mmalobj.py:1425(__getitem__)
+        3    0.000    0.000    0.000    0.000 mmalobj.py:1442(<lambda>)
+     1018    0.001    0.000    0.001    0.000 mmalobj.py:1445(<lambda>)
+     1031    0.392    0.000    0.399    0.000 mmalobj.py:1468(__setitem__)
+        4    0.000    0.000    0.000    0.000 mmalobj.py:1480(<lambda>)
+     1001    0.002    0.000    0.002    0.000 mmalobj.py:1481(<lambda>)
+       26    0.000    0.000    0.000    0.000 mmalobj.py:1483(<lambda>)
+     1500    0.009    0.000    0.009    0.000 mmalobj.py:1521(__init__)
+      500    0.006    0.000    0.006    0.000 mmalobj.py:1705(release)
+      500    0.002    0.000    0.002    0.000 mmalobj.py:1760(__init__)
+      500    0.007    0.000    0.007    0.000 mmalobj.py:1775(__len__)
+     1000    0.015    0.000    0.021    0.000 mmalobj.py:1778(get)
+      500    0.009    0.000    0.011    0.000 mmalobj.py:1824(__init__)
+      500    0.001    0.000    0.001    0.000 mmalobj.py:1842(close)
+     1000    0.004    0.000    0.025    0.000 mmalobj.py:1865(get_buffer)
+     1000    0.007    0.000    0.157    0.000 mmalobj.py:1872(send_buffer)
+      500    0.009    0.000    0.076    0.000 mmalobj.py:1884(send_all_buffers)
+      500    0.044    0.000    0.054    0.000 mmalobj.py:1902(__init__)
+      500    0.018    0.000    0.019    0.000 mmalobj.py:1912(close)
+     1000    0.013    0.000    0.170    0.000 mmalobj.py:1923(send_buffer)
+      500    0.004    0.000    0.081    0.000 mmalobj.py:1933(send_all_buffers)
+      502    0.018    0.000    0.857    0.002 mmalobj.py:1963(__init__)
+      502    0.003    0.000    0.003    0.000 mmalobj.py:1991(close)
+      502    0.043    0.000    0.827    0.002 mmalobj.py:1999(_negotiate_format)
+      502    0.006    0.000    0.358    0.001 mmalobj.py:2001(copy_format)
+      502    0.012    0.000    0.025    0.000 mmalobj.py:2006(max_buffers)
+      502    0.004    0.000    0.004    0.000 mmalobj.py:2019(<listcomp>)
+      502    0.239    0.000    1.100    0.002 mmalobj.py:2135(__init__)
+      502    0.318    0.001    0.321    0.001 mmalobj.py:2156(close)
+      504    0.332    0.001    0.333    0.001 mmalobj.py:2171(enable)
+        2    0.005    0.002    0.005    0.002 mmalobj.py:2216(disable)
+        1    0.000    0.000    0.003    0.003 mmalobj.py:2277(__init__)
+        1    0.000    0.000    0.001    0.001 mmalobj.py:2345(__init__)
+        1    0.000    0.000    0.000    0.000 mmalobj.py:2365(_get_info_rev)
+      502    0.010    0.000    0.893    0.002 mmalobj.py:2395(__init__)
+      502    0.008    0.000    0.249    0.000 mmalobj.py:2399(close)
+        1    0.000    0.000    0.000    0.000 mmalobj.py:2403(enable)
+     1002    0.007    0.000    0.348    0.000 mmalobj.py:2434(disconnect)
+      505    0.003    0.000    0.004    0.000 mmalobj.py:2441(connection)
+      500    0.017    0.000    0.043    0.000 mmalobj.py:324(open_stream)
+      500    0.003    0.000    0.015    0.000 mmalobj.py:360(close_stream)
+     1007    0.016    0.000    0.028    0.000 mmalobj.py:376(to_resolution)
+       14    0.000    0.000    0.000    0.000 mmalobj.py:409(to_fraction)
+        8    0.000    0.000    0.000    0.000 mmalobj.py:449(to_rational)
+     2519    0.025    0.000    0.047    0.000 mmalobj.py:612(__init__)
+      504    0.776    0.002    0.886    0.002 mmalobj.py:628(__init__)
+     1006    0.015    0.000    0.038    0.000 mmalobj.py:655(<genexpr>)
+     1011    0.008    0.000    0.026    0.000 mmalobj.py:659(<genexpr>)
+      504    0.245    0.000    0.265    0.001 mmalobj.py:663(close)
+       29    0.000    0.000    0.000    0.000 mmalobj.py:684(control)
+     3015    0.004    0.000    0.004    0.000 mmalobj.py:692(inputs)
+     5020    0.008    0.000    0.008    0.000 mmalobj.py:700(outputs)
+        3    0.070    0.023    0.070    0.023 mmalobj.py:716(enable)
+        1    0.028    0.028    0.028    0.028 mmalobj.py:726(disable)
+        1    0.000    0.000    0.000    0.000 mmalobj.py:734(__enter__)
+        1    0.000    0.000    0.000    0.000 mmalobj.py:737(__exit__)
+     1513    0.020    0.000    0.053    0.000 mmalobj.py:755(__init__)
+        6    0.000    0.000    0.000    0.000 mmalobj.py:761(index)
+     4011    0.021    0.000    0.021    0.000 mmalobj.py:769(enabled)
+        1    0.000    0.000    0.000    0.000 mmalobj.py:778(enable)
+     1509    0.125    0.000    0.277    0.000 mmalobj.py:802(disable)
+     5517    0.062    0.000    0.108    0.000 mmalobj.py:821(name)
+     3510    0.010    0.000    0.010    0.000 mmalobj.py:835(type)
+     2054    0.003    0.000    0.003    0.000 mmalobj.py:858(params)
+     1009    0.013    0.000    0.042    0.000 mmalobj.py:989(__init__)
+      500    0.001    0.000    0.001    0.000 multiarray.py:145(concatenate)
+      500    0.001    0.000    0.001    0.000 multiarray.py:312(where)
+      500    0.013    0.000    0.019    0.000 numeric.py:1277(normalize_axis_tuple)
+      500    0.003    0.000    0.005    0.000 numeric.py:1327(<listcomp>)
+        1    0.000    0.000    0.069    0.069 renderers.py:555(__init__)
+        1    0.000    0.000    0.003    0.003 renderers.py:560(close)
+      500    0.001    0.000    0.001    0.000 shape_base.py:508(_expand_dims_dispatcher)
+      500    0.024    0.000    0.067    0.000 shape_base.py:512(expand_dims)
+      500    0.004    0.000    0.006    0.000 shape_base.py:600(<listcomp>)
+      500    0.020    0.000    0.024    0.000 streams.py:63(__init__)
+      500    0.007    0.000    0.011    0.000 streams.py:76(close)
+      500    0.404    0.001    0.404    0.001 tflite.py:68(_decode_boxes)
+      500    0.778    0.002   28.186    0.056 tflite.py:89(run)
+      500    0.024    0.000    0.024    0.000 threading.py:216(__init__)
+     2000    0.007    0.000    0.013    0.000 threading.py:240(__enter__)
+     2000    0.006    0.000    0.008    0.000 threading.py:243(__exit__)
+      500    0.002    0.000    0.003    0.000 threading.py:249(_release_save)
+      500    0.002    0.000    0.003    0.000 threading.py:252(_acquire_restore)
+     1500    0.004    0.000    0.008    0.000 threading.py:255(_is_owned)
+      500    0.012    0.000   24.506    0.049 threading.py:264(wait)
+     1000    0.010    0.000    0.015    0.000 threading.py:335(notify)
+     1000    0.005    0.000    0.021    0.000 threading.py:358(notify_all)
+      500    0.006    0.000    0.030    0.000 threading.py:499(__init__)
+     1000    0.011    0.000    0.041    0.000 threading.py:513(set)
+      500    0.006    0.000    0.014    0.000 threading.py:524(clear)
+      500    0.011    0.000   24.522    0.049 threading.py:534(wait)
+        1    0.000    0.000    0.000    0.000 tokenize.py:339(_get_normal_name)
+        1    0.000    0.000    0.000    0.000 tokenize.py:350(detect_encoding)
+        1    0.000    0.000    0.000    0.000 tokenize.py:374(read_or_stop)
+        1    0.000    0.000    0.000    0.000 tokenize.py:380(find_cookie)
+        1    0.000    0.000    0.000    0.000 tokenize.py:443(open)
+        1    0.000    0.000    0.002    0.002 warnings.py:117(_formatwarnmsg)
+        1    0.000    0.000    0.002    0.002 warnings.py:20(_showwarnmsg_impl)
+        1    0.000    0.000    0.002    0.002 warnings.py:35(_formatwarnmsg_impl)
+        1    0.000    0.000    0.000    0.000 warnings.py:419(__init__)
+        1    0.000    0.000    0.002    0.002 warnings.py:96(_showwarnmsg)
+     1046    0.005    0.000    0.005    0.000 {built-in method __new__ of type object at 0x3cc514}
+        2    0.000    0.000    0.000    0.000 {built-in method _abc._abc_instancecheck}
+        2    0.000    0.000    0.000    0.000 {built-in method _abc._abc_subclasscheck}
+        1    0.000    0.000    0.000    0.000 {built-in method _codecs.lookup}
+       12    0.000    0.000    0.000    0.000 {built-in method _codecs.utf_8_decode}
+     1006    0.003    0.000    0.003    0.000 {built-in method _ctypes.POINTER}
+     2042    0.002    0.000    0.002    0.000 {built-in method _ctypes.sizeof}
+        1    0.000    0.000    0.000    0.000 {built-in method _stat.S_ISREG}
+     1501    0.004    0.000    0.004    0.000 {built-in method _thread.allocate_lock}
+      500    0.016    0.000    0.018    0.000 {built-in method _warnings.warn}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.any}
+     7530    0.014    0.000    0.015    0.000 {built-in method builtins.isinstance}
+     1002    0.002    0.000    0.002    0.000 {built-in method builtins.iter}
+     6356    0.008    0.000    0.015    0.000 {built-in method builtins.len}
+     3021    0.010    0.000    0.010    0.000 {built-in method builtins.max}
+        4    0.000    0.000    0.000    0.000 {built-in method builtins.min}
+     1500    0.001    0.000    0.001    0.000 {built-in method builtins.next}
+        2    0.000    0.000    0.000    0.000 {built-in method io.open}
+        1    0.000    0.000    0.000    0.000 {built-in method math.floor}
+       26    0.000    0.000    0.000    0.000 {built-in method math.gcd}
+      500    0.004    0.000    0.004    0.000 {built-in method numpy.array}
+     1500    0.114    0.000    0.181    0.000 {built-in method numpy.core._multiarray_umath.implement_array_function}
+      500    0.003    0.000    0.003    0.000 {built-in method numpy.core._multiarray_umath.normalize_axis_index}
+        1    0.000    0.000    0.000    0.000 {built-in method numpy.empty}
+       10    0.000    0.000    0.000    0.000 {built-in method posix.stat}
+      500    0.001    0.000    0.001    0.000 {built-in method sys.getrefcount}
+     1000    0.028    0.000    0.028    0.000 {built-in method tflite_runtime._interpreter_wrapper.InterpreterWrapper_GetTensor}
+      500   26.464    0.053   26.464    0.053 {built-in method tflite_runtime._interpreter_wrapper.InterpreterWrapper_Invoke}
+      500    0.077    0.000    0.077    0.000 {built-in method tflite_runtime._interpreter_wrapper.InterpreterWrapper_SetTensor}
+      500    0.003    0.000    0.003    0.000 {function BufferIO.close at 0x76394588}
+     2000    0.006    0.000    0.006    0.000 {method '__enter__' of '_thread.lock' objects}
+     2000    0.002    0.000    0.002    0.000 {method '__exit__' of '_thread.lock' objects}
+     3000   24.488    0.008   24.488    0.008 {method 'acquire' of '_thread.lock' objects}
+     2519    0.004    0.000    0.004    0.000 {method 'add' of 'set' objects}
+      500    0.001    0.000    0.001    0.000 {method 'append' of 'collections.deque' objects}
+      619    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+      500    0.188    0.000    0.188    0.000 {method 'astype' of 'numpy.ndarray' objects}
+      500    0.004    0.000    0.004    0.000 {method 'cast' of 'memoryview' objects}
+        2    0.000    0.000    0.000    0.000 {method 'copy' of 'dict' objects}
+     5519    0.017    0.000    0.017    0.000 {method 'decode' of 'bytes' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+     2518    0.004    0.000    0.004    0.000 {method 'discard' of 'set' objects}
+     5518    0.016    0.000    0.016    0.000 {method 'endswith' of 'str' objects}
+        2    0.000    0.000    0.000    0.000 {method 'from_buffer_copy' of '_ctypes.PyCStructType' objects}
+     5110    0.006    0.000    0.006    0.000 {method 'get' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'group' of 're.Match' objects}
+        1    0.000    0.000    0.000    0.000 {method 'index' of 'tuple' objects}
+        2    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'lower' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 {method 'match' of 're.Pattern' objects}
+     1000    0.003    0.000    0.003    0.000 {method 'pop' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'readline' of '_io.BufferedReader' objects}
+      846    0.001    0.000    0.001    0.000 {method 'readline' of '_io.TextIOWrapper' objects}
+        1    0.001    0.001    0.001    0.001 {method 'readlines' of '_io._IOBase' objects}
+      500    0.000    0.000    0.000    0.000 {method 'release' of '_thread.lock' objects}
+      500    0.001    0.000    0.001    0.000 {method 'release' of 'memoryview' objects}
+        1    0.000    0.000    0.000    0.000 {method 'replace' of 'str' objects}
+      500    0.009    0.000    0.009    0.000 {method 'reshape' of 'numpy.ndarray' objects}
+     5012    0.013    0.000    0.013    0.000 {method 'rindex' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 {method 'seek' of '_io.BufferedReader' objects}
+      709    0.001    0.000    0.001    0.000 {method 'setdefault' of 'dict' objects}
+      845    0.001    0.000    0.001    0.000 {method 'split' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 {method 'startswith' of 'bytes' objects}
+      501    0.003    0.000    0.003    0.000 {method 'startswith' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 {method 'strip' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 {method 'upper' of 'str' objects}
+     1002    0.002    0.000    0.002    0.000 {method 'values' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'write' of '_io.TextIOWrapper' objects}
+
+

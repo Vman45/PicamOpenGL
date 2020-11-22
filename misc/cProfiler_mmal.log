@@ -1,0 +1,141 @@
+         371 function calls in 31.694 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.000    0.000 <string>:1(__new__)
+        4    0.000    0.000    0.000    0.000 _weakrefset.py:38(_remove)
+        8    0.000    0.000    0.000    0.000 _weakrefset.py:81(add)
+        2    0.000    0.000    0.000    0.000 bcm_host.py:92(VCOS_ALIGN_UP)
+        1    0.000    0.000   31.694   31.694 camera.py:41(picam_mmal)
+        1    0.000    0.000    0.000    0.000 camera.py:9(__init__)
+        4    0.000    0.000    0.000    0.000 exc.py:132(__init__)
+        2    0.000    0.000    0.000    0.000 exc.py:169(__init__)
+       16    0.000    0.000    0.000    0.000 exc.py:173(mmal_check)
+        3    0.000    0.000    0.000    0.000 mmalobj.py:1006(_set_opaque_subformat)
+        1    0.000    0.000    0.000    0.000 mmalobj.py:1032(_set_format)
+        2    0.000    0.000    0.001    0.000 mmalobj.py:1050(supported_formats)
+        2    0.000    0.000    0.000    0.000 mmalobj.py:1073(<listcomp>)
+        2    0.000    0.000    0.001    0.000 mmalobj.py:1104(commit)
+        4    0.000    0.000    0.001    0.000 mmalobj.py:1144(send_buffer)
+        1    0.000    0.000    0.000    0.000 mmalobj.py:1183(_get_buffer_count)
+        1    0.000    0.000    0.000    0.000 mmalobj.py:1185(_set_buffer_count)
+        1    0.000    0.000    0.000    0.000 mmalobj.py:1195(_get_buffer_size)
+        1    0.000    0.000    0.000    0.000 mmalobj.py:1197(_set_buffer_size)
+        1    0.075    0.075    0.076    0.076 mmalobj.py:1208(enable)
+        2    0.000    0.000    0.000    0.000 mmalobj.py:1219(wrapper)
+        3    0.000    0.000    0.003    0.001 mmalobj.py:1263(disable)
+        1    0.000    0.000    0.000    0.000 mmalobj.py:1273(connection)
+        1    0.000    0.000    0.001    0.001 mmalobj.py:1283(connect)
+        1    0.000    0.000    0.000    0.000 mmalobj.py:1334(_set_framesize)
+        4    0.000    0.000    0.000    0.000 mmalobj.py:1421(__init__)
+        3    0.001    0.000    0.001    0.000 mmalobj.py:1425(__getitem__)
+        3    0.000    0.000    0.000    0.000 mmalobj.py:1445(<lambda>)
+        3    0.001    0.000    0.001    0.000 mmalobj.py:1468(__setitem__)
+        3    0.000    0.000    0.000    0.000 mmalobj.py:1481(<lambda>)
+        6    0.000    0.000    0.000    0.000 mmalobj.py:1521(__init__)
+        2    0.000    0.000    0.000    0.000 mmalobj.py:1705(release)
+        3    0.000    0.000    0.000    0.000 mmalobj.py:1760(__init__)
+        1    0.000    0.000    0.000    0.000 mmalobj.py:1764(create)
+        1    0.000    0.000    0.000    0.000 mmalobj.py:1775(__len__)
+        4    0.000    0.000    0.000    0.000 mmalobj.py:1778(get)
+        2    0.000    0.000    0.000    0.000 mmalobj.py:1824(__init__)
+        1    0.000    0.000    0.000    0.000 mmalobj.py:1842(close)
+        4    0.000    0.000    0.000    0.000 mmalobj.py:1865(get_buffer)
+        4    0.000    0.000    0.001    0.000 mmalobj.py:1872(send_buffer)
+        1    0.000    0.000    0.000    0.000 mmalobj.py:1884(send_all_buffers)
+        1    0.001    0.001    0.001    0.001 mmalobj.py:1902(__init__)
+        1    0.000    0.000    0.000    0.000 mmalobj.py:1912(close)
+        4    0.000    0.000    0.001    0.000 mmalobj.py:1923(send_buffer)
+        1    0.000    0.000    0.000    0.000 mmalobj.py:1933(send_all_buffers)
+        1    0.000    0.000    0.001    0.001 mmalobj.py:1963(__init__)
+        1    0.000    0.000    0.001    0.001 mmalobj.py:1999(_negotiate_format)
+        1    0.000    0.000    0.000    0.000 mmalobj.py:2001(copy_format)
+        1    0.000    0.000    0.000    0.000 mmalobj.py:2006(max_buffers)
+        1    0.000    0.000    0.000    0.000 mmalobj.py:2019(<listcomp>)
+        1    0.000    0.000    0.003    0.003 mmalobj.py:2277(__init__)
+        2    0.000    0.000    0.000    0.000 mmalobj.py:2601(__init__)
+        2    0.000    0.000    0.000    0.000 mmalobj.py:2641(_get_supported_formats)
+        1    0.000    0.000    0.000    0.000 mmalobj.py:2643(_set_supported_formats)
+        2    0.000    0.000    0.000    0.000 mmalobj.py:2662(_get_format)
+        2    0.000    0.000    0.000    0.000 mmalobj.py:2718(_get_buffer_count)
+        1    0.000    0.000    0.000    0.000 mmalobj.py:2720(_set_buffer_count)
+        2    0.000    0.000    0.000    0.000 mmalobj.py:2730(_get_buffer_size)
+        1    0.000    0.000    0.000    0.000 mmalobj.py:2732(_set_buffer_size)
+        2    0.000    0.000    0.000    0.000 mmalobj.py:2741(copy_from)
+        1    0.000    0.000    0.000    0.000 mmalobj.py:2751(commit)
+        1    0.000    0.000    0.000    0.000 mmalobj.py:2783(enable)
+        5    0.000    0.000    0.000    0.000 mmalobj.py:2899(type)
+        2    0.000    0.000    0.000    0.000 mmalobj.py:2930(connection)
+        1    0.000    0.000    0.001    0.001 mmalobj.py:2940(connect)
+        1    0.000    0.000    0.000    0.000 mmalobj.py:2976(__init__)
+        1    0.000    0.000    0.000    0.000 mmalobj.py:3016(__init__)
+        1    0.000    0.000    0.000    0.000 mmalobj.py:3038(enable)
+        3    0.000    0.000    0.000    0.000 mmalobj.py:3060(inputs)
+        1    0.000    0.000    0.000    0.000 mmalobj.py:3068(outputs)
+        1    0.000    0.000    0.000    0.000 mmalobj.py:3076(_commit_port)
+        1    0.000    0.000    0.000    0.000 mmalobj.py:3226(__init__)
+        2    0.000    0.000    0.000    0.000 mmalobj.py:3234(<genexpr>)
+        1    0.000    0.000    0.000    0.000 mmalobj.py:3278(connection)
+        1    0.000    0.000    0.000    0.000 mmalobj.py:3290(_commit_port)
+        1    0.000    0.000    0.001    0.001 mmalobj.py:3304(enable)
+        1    0.000    0.000    0.001    0.001 mmalobj.py:3577(__init__)
+        1    0.000    0.000    0.076    0.076 mmalobj.py:3600(enable)
+        1    0.000    0.000    0.000    0.000 mmalobj.py:376(to_resolution)
+        7    0.000    0.000    0.000    0.000 mmalobj.py:612(__init__)
+        1    0.002    0.002    0.003    0.003 mmalobj.py:628(__init__)
+        1    0.000    0.000    0.000    0.000 mmalobj.py:655(<genexpr>)
+        4    0.000    0.000    0.000    0.000 mmalobj.py:659(<genexpr>)
+        1    0.067    0.067    0.070    0.070 mmalobj.py:663(close)
+        1    0.000    0.000    0.000    0.000 mmalobj.py:684(control)
+        1    0.000    0.000    0.000    0.000 mmalobj.py:692(inputs)
+        7    0.000    0.000    0.000    0.000 mmalobj.py:700(outputs)
+        1    0.006    0.006    0.006    0.006 mmalobj.py:716(enable)
+        4    0.000    0.000    0.000    0.000 mmalobj.py:755(__init__)
+        5    0.000    0.000    0.000    0.000 mmalobj.py:769(enabled)
+        3    0.002    0.001    0.003    0.001 mmalobj.py:802(disable)
+       12    0.000    0.000    0.000    0.000 mmalobj.py:821(name)
+        6    0.000    0.000    0.000    0.000 mmalobj.py:835(type)
+        6    0.000    0.000    0.000    0.000 mmalobj.py:858(params)
+        3    0.000    0.000    0.000    0.000 mmalobj.py:989(__init__)
+        1    0.000    0.000    0.000    0.000 threading.py:1104(daemon)
+        1    0.000    0.000    0.000    0.000 threading.py:1120(daemon)
+        1    0.000    0.000    0.000    0.000 threading.py:1214(current_thread)
+        2    0.000    0.000    0.000    0.000 threading.py:216(__init__)
+        2    0.000    0.000    0.000    0.000 threading.py:240(__enter__)
+        2    0.000    0.000    0.000    0.000 threading.py:243(__exit__)
+        2    0.000    0.000    0.000    0.000 threading.py:249(_release_save)
+        2    0.000    0.000    0.000    0.000 threading.py:252(_acquire_restore)
+        2    0.000    0.000    0.000    0.000 threading.py:255(_is_owned)
+        2    0.000    0.000   31.535   15.768 threading.py:264(wait)
+        2    0.000    0.000    0.000    0.000 threading.py:499(__init__)
+        2    0.000    0.000    0.000    0.000 threading.py:507(is_set)
+        2    0.000    0.000   31.535   15.768 threading.py:534(wait)
+        1    0.000    0.000    0.000    0.000 threading.py:728(_newname)
+        1    0.000    0.000    0.000    0.000 threading.py:758(__init__)
+        1    0.000    0.000    0.001    0.001 threading.py:829(start)
+        1    0.000    0.000    0.000    0.000 {built-in method __new__ of type object at 0x3cc514}
+        1    0.000    0.000    0.000    0.000 {built-in method _ctypes.POINTER}
+        4    0.000    0.000    0.000    0.000 {built-in method _ctypes.pointer}
+        5    0.000    0.000    0.000    0.000 {built-in method _ctypes.sizeof}
+        4    0.000    0.000    0.000    0.000 {built-in method _thread.allocate_lock}
+        1    0.000    0.000    0.000    0.000 {built-in method _thread.get_ident}
+        1    0.000    0.000    0.000    0.000 {built-in method _thread.start_new_thread}
+       11    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.iter}
+        3    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        4    0.000    0.000    0.000    0.000 {built-in method builtins.max}
+        2    0.000    0.000    0.000    0.000 {method '__enter__' of '_thread.lock' objects}
+        2    0.000    0.000    0.000    0.000 {method '__exit__' of '_thread.lock' objects}
+        8   31.535    3.942   31.535    3.942 {method 'acquire' of '_thread.lock' objects}
+        8    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+        2    0.000    0.000    0.000    0.000 {method 'append' of 'collections.deque' objects}
+       12    0.000    0.000    0.000    0.000 {method 'decode' of 'bytes' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        4    0.000    0.000    0.000    0.000 {method 'discard' of 'set' objects}
+       12    0.000    0.000    0.000    0.000 {method 'endswith' of 'str' objects}
+       16    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+        2    0.000    0.000    0.000    0.000 {method 'release' of '_thread.lock' objects}
+       11    0.000    0.000    0.000    0.000 {method 'rindex' of 'str' objects}
+
+
